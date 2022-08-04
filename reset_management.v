@@ -22,7 +22,7 @@
 //延时时长delay ，相对于clk
 module reset_management(
        input wire [25:0] delay,
-       input wire locked,
+       input wire locked,	//start
        input wire clk,
        output reg rst_n
 );
